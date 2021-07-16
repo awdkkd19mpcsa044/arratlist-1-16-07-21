@@ -1,0 +1,42 @@
+import java.util.*;
+class arraylist
+{
+public static void main(String[]args)
+{
+ArrayList<Integer>a=new ArrayList<Integer>();
+ArrayList<Integer>a1=new ArrayList<Integer>();
+a.add(100);
+a.add(200);
+a.add(300);
+a.add(400);
+      a1.add(10);
+      a1.add(20);
+      a1.add(30);
+      a1.add(40);
+System.out.println("list a"+a);
+a1.addAll(a);
+System.out.println("list a1"+a1);
+}
+}
+
+
+Arraylist1
+import java.util.*;
+class arraylist1
+{
+public static void main(String[]args)
+{
+ArrayList<String>a=new ArrayList<String>();
+ArrayList<String>a1=new ArrayList<String>();
+a.add("white");
+a.add("yellow");
+a.add("pink");
+      a1.add("red");
+      a1.add("blue");
+      a1.add("green");
+      a1.add("pink");
+System.out.println("list a"+a);
+a1.addAll(a);
+System.out.println("list a1"+a1);
+}
+}
